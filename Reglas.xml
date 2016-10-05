@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Repository>
+	<Date>2015-03-16</Date>
+	<Rule rule_id="ID_1426535427476">
+		<Date>2015-03-16</Date>
+		<Active>true</Active>
+		<Relation>swad_DB</Relation>
+		<Antecedent>Sex=="m" &amp;&amp;¬(cnt_assigments=5)</Antecedent>
+		<Consequent>avg_score=4&amp;&amp;pc_pcontestadas==5.6</Consequent>
+		<Association_Rule/>
+	</Rule>
+	<Rule rule_id="ID_1426535594388">
+		<Date>2015-03-16</Date>
+		<Active>true</Active>
+		<Relation>swad_DB</Relation>
+		<Antecedent>pc_pcontestadas,cnt_assigments</Antecedent>
+		<Consequent>Sex,avg_score</Consequent>
+		<Approximate_Dependence/>
+	</Rule>
+	<Rule rule_id="ID_1426535731389">
+		<Date>2015-03-16</Date>
+		<Active>true</Active>
+		<Relation>swad_DB</Relation>
+		<Antecedent>avg_score='alto',pc_pcontestadas='alto'</Antecedent>
+		<Consequent>cnt_assigments='alto'</Consequent>
+		<Fuzzy_Association_Rule>
+			<Attribute>
+				<Attribute_Name>avg_score</Attribute_Name>
+				<Linguistic_Label>
+					<Label_Name>alto</Label_Name>
+					<A>1.0</A>
+					<B>2.0</B>
+					<C>3.0</C>
+					<D>4.0</D>
+				</Linguistic_Label>
+				<Linguistic_Label>
+					<Label_Name>medio</Label_Name>
+					<A>1.0</A>
+					<B>2.0</B>
+					<C>3.0</C>
+					<D>4.0</D>
+				</Linguistic_Label>
+			</Attribute>
+			<Attribute>
+				<Attribute_Name>cnt_assigments</Attribute_Name>
+				<Linguistic_Label>
+					<Label_Name>medio</Label_Name>
+					<A>1.0</A>
+					<B>2.0</B>
+					<C>3.0</C>
+					<D>4.0</D>
+				</Linguistic_Label>
+				<Linguistic_Label>
+					<Label_Name>alto</Label_Name>
+					<A>1.0</A>
+					<B>2.0</B>
+					<C>3.0</C>
+					<D>4.0</D>
+				</Linguistic_Label>
+			</Attribute>
+			<Attribute>
+				<Attribute_Name>pc_pcontestadas</Attribute_Name>
+				<Linguistic_Label>
+					<Label_Name>alto</Label_Name>
+					<A>1.0</A>
+					<B>2.0</B>
+					<C>3.0</C>
+					<D>4.0</D>
+				</Linguistic_Label>
+			</Attribute>
+		</Fuzzy_Association_Rule>
+	</Rule>
+</Repository>
