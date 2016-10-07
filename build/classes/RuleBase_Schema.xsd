@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited by Alain (Home) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="Repository">
+		<xs:annotation>
+			<xs:documentation>Comment describing your root element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="Date" type="xs:date"/>
+				<xs:element name="Rule" minOccurs="0" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="Date" type="xs:date"/>
+							<xs:element name="Active" type="xs:boolean"/>
+							<xs:element name="Relation" type="xs:string"/>
+							<xs:element name="Antecedent" type="xs:string"/>
+							<xs:element name="Consequent" type="xs:string"/>
+							<xs:choice>
+								<xs:element name="Association_Rule">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Quantitative" type="xs:boolean" minOccurs="0"/>
+											<xs:element name="Complex" type="xs:boolean" minOccurs="0"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="Approximate_Dependence">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Number_Attributes" type="xs:integer" minOccurs="0"/>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+								<xs:element name="Fuzzy_Association_Rule">
+									<xs:complexType>
+										<xs:sequence>
+											<xs:element name="Attribute" maxOccurs="unbounded">
+												<xs:complexType>
+													<xs:sequence>
+														<xs:element name="Attribute_Name" type="xs:string"/>
+														<xs:element name="Linguistic_Label" maxOccurs="unbounded">
+															<xs:complexType>
+																<xs:sequence>
+																	<xs:element name="Label_Name" type="xs:string"/>
+																	<xs:element name="A" type="xs:float"/>
+																	<xs:element name="B" type="xs:float"/>
+																	<xs:element name="C" type="xs:float"/>
+																	<xs:element name="D" type="xs:float"/>
+																</xs:sequence>
+															</xs:complexType>
+														</xs:element>
+													</xs:sequence>
+												</xs:complexType>
+											</xs:element>
+										</xs:sequence>
+									</xs:complexType>
+								</xs:element>
+							</xs:choice>
+						</xs:sequence>
+						<xs:attribute name="rule_id" type="xs:ID" use="required"/>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
