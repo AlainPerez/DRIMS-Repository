@@ -259,7 +259,7 @@ public class Rules_Compiler_Manager {
     }
   public String generate_resources(String method){
    
-   String result = "The following resources has been created:\n"+
+   String result = "The following resources has been created on database catalog:\n"+
              " 1. Table(s):\n"+
              "        'data_rules' -- store all rules measures.\n";
    if ("Immediate".equals(method)){

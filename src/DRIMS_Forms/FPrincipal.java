@@ -2063,6 +2063,7 @@ public class FPrincipal extends javax.swing.JFrame {
         ConnectionLayout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {jButton42, jButton44});
 
         Script_SQL.setTitle("Generated SQL Script");
+        Script_SQL.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("/Images/database_edit.png")));
         Script_SQL.addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowClosing(java.awt.event.WindowEvent evt) {
                 Script_SQLWindowClosing(evt);
@@ -2389,7 +2390,7 @@ public class FPrincipal extends javax.swing.JFrame {
         });
         jToolBar2.add(jButton58);
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Picture3.png"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Mant_Incremental.png"))); // NOI18N
         jLabel18.setText("jLabel18");
 
         jMenuBar1.setBackground(new java.awt.Color(153, 204, 240));
