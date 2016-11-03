@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><Repository><Date>2016-10-07</Date><Rule rule_id="ID_1475802783562"><Date>2016-10-07</Date><Active>true</Active><Relation>swad_db</Relation><Antecedent>
-      pc_pcontestadas in [0.83, 1.0] &amp;&amp; 
-         sum_fileView in [345, 518]</Antecedent><Consequent>            
-
-             avg_score in [0.66, 1.0]</Consequent><Association_Rule/></Rule></Repository>
