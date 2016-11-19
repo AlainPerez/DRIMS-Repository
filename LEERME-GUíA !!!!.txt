@@ -11,7 +11,7 @@ Para ejecutar completamente DRIMS siga los siguientes pasos:
 4- Elija la relación color_moments y cree las reglas que desee o elija la Base de Reglas base_reglas_colorMoments.xml. Esta base de reglas contiene una RA.
 5- No olvide activar la regla creda\elegida.
 6- Genere el script y ejecútelo directamente en la BD y vea los recursos creados en esta primera versión de la herramienta.
-7- Si ejecuta la función measures_update_ID... pues se calculará el Factor de Certeza.
+7- Si ejecuta la función measures_update_ID... pues se calculará el Factor de Certeza de la regla creada.
 
 Espero que le haya resultado útil esta guía y que encuentre la herramienta interesante y práctica :)
 Si desea apoyar en las próximas versiones de la herramienta escriba a:

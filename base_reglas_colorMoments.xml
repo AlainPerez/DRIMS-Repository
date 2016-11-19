@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Repository><Date>2016-11-19</Date><Rule rule_id="ID_1479511194626"><Date>2016-11-19</Date><Active>true</Active><Relation>color_moments</Relation><Antecedent>hskew in [0.8, 1.4]</Antecedent><Consequent>hstdv in [1.37, 2.93]</Consequent><Association_Rule/></Rule></Repository>
