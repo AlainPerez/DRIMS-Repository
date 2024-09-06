@@ -1,6 +1,6 @@
 Hola,
 
-Para realizar una sencilla prueba de DRIMS he elaborado una pequeña guía.
+Para realizar una prueba de DRIMS he creado esta guía.
 Un video (DRIMS.wmv) que se encuentra en la raíz puede ayudar a visualizar y trabajar con DRIMS.
 
 Para ejecutar completamente DRIMS siga los siguientes pasos:
@@ -15,7 +15,7 @@ Para ejecutar completamente DRIMS siga los siguientes pasos:
 
 Espero que le haya resultado útil esta guía y que encuentre la herramienta interesante y práctica :)
 Si desea apoyar en las próximas versiones de la herramienta escriba a:
-apa@uclv.edu.cu
+alainpa84@gmail.com
 ¡Gracias!
 Un saludo, Alain
 
