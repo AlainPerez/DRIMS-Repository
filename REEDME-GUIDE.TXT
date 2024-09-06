@@ -1,0 +1,19 @@
+Hello,
+
+To conduct a DRIMS test, I have created this guide.
+A video (DRIMS.wmv) located in the root directory can help you visualize and work with DRIMS.
+
+To fully run DRIMS, follow these steps:
+
+Install a version of MySQL (http://dev.mysql.com/downloads/mysql/) or PostgreSQL. This guide is made with MySQL, but you can follow similar steps with PL/pgSQL.
+Execute the file color_moments_MySQL.sql in a database you create. This file will create a table and populate it with part of the data from this set extracted from UCI Irvine. You can use Workbench (http://dev.mysql.com/downloads/workbench/).
+Run the JAR from the \dist folder, where the project’s distributable is located. You must have JRE or JDK 7 installed.
+Select the color_moments relation and create the rules you want, or choose the Rule Base base_reglas_colorMoments.xml. This rule base contains an RA.
+Don’t forget to activate the created/chosen rule.
+Generate the script and run it directly in the database to see the resources created in this first version of the tool.
+If you run the function measures_update_ID, the Certainty Factor of the created rule will be calculated.
+I hope you find this guide helpful and that you find the tool interesting and practical :)
+If you want to support the next versions of the tool, write to: alainpa84@gmail.com
+Thank you!
+Best regards,
+Alain
